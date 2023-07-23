@@ -35,10 +35,10 @@ import React, { useRef, useState } from 'react'
 
 const UseRefHook = () => {
     const [data,setData]=useState('');
-    const user=useRef('')
+    const user=useRef('hell')
 
     const clickHandler=()=>{
-        user.current.style.backgroundColor="black"
+        user.current.style.backgroundColor="red"
     }
   return (
     <div>
